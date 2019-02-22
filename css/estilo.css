@@ -1,0 +1,86 @@
+/* Limpar padrão */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Seletores */
+
+body{
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/* Configurações do Menu */
+
+#menu{
+    background-color: #ffae00;
+	padding: 15px;
+    text-align: center;
+}
+
+.menu-logo{
+    font-size: 5em;
+}
+
+#menu-itens{
+    text-decoration: none;
+    color: white;
+}
+
+.branco{
+    color: white;
+}
+
+/* Área de postagens */
+
+#area-postagem{
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.noticia{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 660px;
+}
+
+.noticia-img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+
+.footer{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #a3a3a3;
+    text-align: center;
+}
+
+
+/* Área lateral */ 
+
+#area-lateral{
+    width: 280px;
+    float: right;
+}
+
+.noticias-lateral{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.categorias-lateral{
+
+}
+
+.h2-itens-lateral{
+    background-color: #b5b5b5;
+    font-size: 1.2em;
+}
